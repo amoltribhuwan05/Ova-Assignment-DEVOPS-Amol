@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Greetings",
+        "Good day",
+        "Welcome"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey!",
+        "Greetings!",
+        "Good day!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Farewell"],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Farewell!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot!"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about yourself",
+        "What can you do?",
+        "Who are you?"
+      ],
+      "responses": [
+        "I'm a chatbot designed to assist you with various tasks.",
+        "I'm here to help you with any questions or tasks you have.",
+        "I'm an AI-powered chatbot ready to assist you!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me about the weather",
+        "Weather forecast"
+      ],
+      "responses": [
+        "The weather today is sunny with a high of 25°C.",
+        "Expect clear skies with a gentle breeze today.",
+        "Today's weather forecast predicts sunny conditions."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time",
+        "Current time"
+      ],
+      "responses": [
+        "It's currently 10:00 AM.",
+        "The time is now 10:00 AM.",
+        "It's 10:00 AM right now."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Assistance",
+        "Support"
+      ],
+      "responses": [
+        "How can I assist you?",
+        "What do you need help with?",
+        "I'm here to help. What can I do for you?"
+      ]
+    }
+  ]
+}
