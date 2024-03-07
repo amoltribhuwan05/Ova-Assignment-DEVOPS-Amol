@@ -18,4 +18,4 @@ This project implements a chatbot using Python and Flask, integrated with the Op
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/chatbot-s3.git
+git clone https://github.com/Ova-Assignment-DEVOPS-Amol/chatbot-s3.git
